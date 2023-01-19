@@ -1,5 +1,16 @@
-body {
-  background-color: blue;
+@media screen and (min-width:990px){
+    .navbar .container-fluid, .navbar-expand-lg .navbar-collapse, .navbar-expand-lg .navbar-nav{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .navbar{
+        width: 25%;
+        height: 100vh;
+        align-items: flex-start;
+    }
 }
-
-/*# sourceMappingURL=styles.css.map */
+.navbar-brand {
+  color: #C25CDB;
+  font-weight: 500;
+  font-size: 25px;
+}/*# sourceMappingURL=styles.css.map */
