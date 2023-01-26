@@ -5,6 +5,14 @@
     background-color: map-get($colours, primary);
     border-color: map-get($colours, secondary);
     color: map-get($colours, textColour);
-
     font-weight: 500;
+
+    &:hover{
+        background-color: map-get($colours, secondary);
+    }
+    &:focus {
+        background-color: map-get($colours, primary);
+        border-color: map-get($colours, secondary);
+        box-shadow: map-get($colours, fourth);
+    }
 }
