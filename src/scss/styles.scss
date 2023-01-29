@@ -3,7 +3,9 @@
 @import './components/form';
 @import './components/buttons';
 
-
+body{
+    margin: 0;
+}
 .main{
 width: 100%;
 margin: 0;
@@ -81,6 +83,31 @@ height: 100vh;
 
 .login{
 margin-top: 3.8rem;
+}
+.col{
+    border-right: 1.5px solid rgba($color: #000, $alpha: 0.18);
+}
+
+
+.card-home{
+    background-color: #D9D9D9;
+    margin-top: 3.8rem;
+    padding: 10px;
+    border: 1.5px solid rgba($color: #000, $alpha: 0.18);
+    
+    .card-body{
+        margin-top: 1rem;
+        border: 1.5px solid rgba($color: #000, $alpha: 0.18);
+        padding-top: 25px;
+        background-color: white;
+        padding: 5px;
+    }
+
+    .card-title{
+        text-align: center;
+        font-size: 25px;
+    }
+    
 }
 
 @media screen and (max-width: 768px) {
