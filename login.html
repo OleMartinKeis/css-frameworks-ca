@@ -54,16 +54,16 @@
             <div class="col">
                 <div class="login d-block">
                     <h2>Log In or Register to SocialGram</h2>
-                    <form class="login-form" method="get" action="/profile.html" class="requires-validation" novalidate>
+                    <form class="login-form" method="get" action="/profile.html" class="requires-validation">
                         
                         <div class="form-outline mb-4">
-                        <input type="email" id="form2Example1" class="form-control" />
+                        <input type="email" id="form2Example1" class="form-control" required/>
                         <label class="form-label" for="form2Example1">Email address</label>
                         </div>
                     
                         
                         <div class="form-outline mb-4">
-                        <input type="password" id="form2Example2" class="form-control" />
+                        <input type="password" id="form2Example2" class="form-control" required/>
                         <label class="form-label" for="form2Example2">Password</label>
                         </div>
                     
@@ -84,7 +84,7 @@
                         </div>
                     
                         
-                        <button type="button" class="btn btn-primary btn-block mb-4">Sign in</button>
+                        <button type="submit" value="submit" class="btn btn-primary btn-block mb-4">Sign in</button>
                     
                     
                         <div class="text-center">
