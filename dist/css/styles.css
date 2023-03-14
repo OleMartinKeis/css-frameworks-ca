@@ -153,8 +153,11 @@ body {
   .container {
     margin: 0 auto;
   }
-  .card, .mb-3 {
+  .mb-3 {
     width: 14rem;
+  }
+  .border-end {
+    border: 0px solid !important;
   }
 }
 @media screen and (max-width: 576px) {
@@ -163,8 +166,6 @@ body {
     max-width: 324px;
   }
   .card-img-top {
-    max-height: 50px;
-    max-width: 50px;
     margin-top: 0.4rem;
   }
   .card-profile {
